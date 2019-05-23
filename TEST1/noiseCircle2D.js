@@ -7,7 +7,7 @@ function setup(){
 function draw(){
   background(0);
   translate(windowWidth/2,windowHeight/2);
-  fill(255);
+  fill(255,0,0);
   beginShape();
   for(let a = 0; a < Math.PI*2; a += 0.01)
   { xoff = cos(a)+moff;
