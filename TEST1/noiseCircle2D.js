@@ -9,7 +9,7 @@ function draw(){
   translate(windowWidth/2,windowHeight/2);
   fill(255);
   beginShape();
-  for(let a = Math.PI; a < Math.PI*2; a += 0.01)
+  for(let a = 0; a < Math.PI*2; a += 0.01)
   { xoff = cos(a)+moff;
     yoff = sin(a)+moff;
     r = map(noise(xoff,yoff),0,1,100,200);
