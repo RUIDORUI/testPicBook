@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page8</title>
+    <style>
+     body {padding: 0; margin: 0;} 
+     @keyframes setup{
+       0% {
+         opacity: 0;
+       }
+       75% {
+         opacity: 1;
+         transform: none;
+       }
+       100% {
+         opacity: 1;
+         transform: rotateZ(5deg);
+       }
+      }
+     @font-face {
+      font-family: 'GenJyuuGothic-Medium';
+      src: url('GenJyuuGothic-Medium.ttf') format("truetype"),        
+      }
+     #text{
+       font-family:'GenJyuuGothic-Medium'; 
+      font-size: 30px;
+      writing-mode: vertical-rl;
+      position:absolute;left: 150px;top: 250px;
+     }
+     
+     
+     #buttonRight{
+        position:absolute;right: 5%;bottom:10%;
+        background-color: rgba(233, 231, 144, 0.75);
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-radius: 30px;
+        border-color:  rgb(168, 168, 168);
+        font-family:'GenJyuuGothic-Medium'; 
+        font-size: 30px;
+        }
+        #buttonRight:hover{
+         background-color:rgba(233, 231, 144);;
+        }
+
+        #buttonLeft{
+        position:absolute;left: 5%;bottom:10%;
+        background-color: rgba(233, 231, 144, 0.75);
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-radius: 30px;
+        border-color:  rgb(168, 168, 168);
+        font-family:'GenJyuuGothic-Medium'; 
+        font-size: 30px;
+        }
+        #buttonLeft:hover{
+         background-color:rgba(233, 231, 144);;
+        }
+        
+      
+    </style>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="curve.js"></script>
+    
+   
+    
+  </head>
+  <body>
+      <input type="button" id="buttonRight" name="下一頁" onclick="javascript:location.href='https://ruidorui.github.io/testPicBook/PAGE03/'" value="下一頁">
+      <input type="button" id="buttonLeft" name="上一頁" onclick="javascript:location.href='https://ruidorui.github.io/testPicBook/PAGE03/'" value="上一頁">
+      <script src="page8.js"></script>
+      
+  </body>
+</html>
