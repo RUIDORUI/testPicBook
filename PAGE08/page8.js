@@ -60,7 +60,7 @@ function draw() {
     image(monster,windowWidth*0.7,windowHeight/2,monster.width*0.75,monster.height*0.75);
     noStroke();
     fill(25);
-    text("啊!是怪獸的爸爸!\n夢中的爸爸不發一語的看著怪獸，眼神中似乎透漏著訊息，\n但怪獸只能從那微妙的表情猜測。”\n媽，妳怎麼不一起過來啊?”\n正當怪獸以為就要這樣跟爸爸對看到天亮時。",width*0.55,150);
+    text("夢中的爸爸不發一語的看著怪獸，眼神中似乎透漏著訊息，\n但怪獸只能從那微妙的表情猜測。”\n媽，妳怎麼不一起過來啊?”\n正當怪獸以為就要這樣跟爸爸對看到天亮時。",width*0.55,150);
 
    
 }
