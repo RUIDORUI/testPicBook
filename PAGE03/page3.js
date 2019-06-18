@@ -41,7 +41,10 @@ function draw(){
     bubbles[i].show();
     bubbles[i].up();
   }
-  
+  noStroke();
+  fill(0);
+  textFont(font1,30);
+  text("愛整潔，有禮貌，守規矩，\n我真的好糟糕嗚嗚嗚~~~，\n的確，以怪獸界的標準來說，\n他真的還蠻糟糕的，\n用汽水假裝藉酒消愁的的怪獸\n不斷的抱怨自己。",width*0.1,350);
   
 }
 
